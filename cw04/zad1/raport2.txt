@@ -1,0 +1,83 @@
+
+
+----------MASK----------
+PID procesu głównego: 45091
+Kolejka procesu 45091 nie zawiera sygnału SIGUSR1
+Wysyłanie sygnału...
+Kolejka procesu 45091 zawiera sygnał SIGUSR1
+
+Proces potomny - fork()
+
+PID dziecka: 45093
+Maska procesu 45093 zawiera sygnał SIGUSR1
+Kolejka procesu 45093 nie zawiera sygnału SIGUSR1
+Wysyłanie sygnału...
+Kolejka procesu 45093 zawiera sygnał SIGUSR1
+
+Proces potomny - exec()
+
+PID dziecka: 45091
+Maska procesu 45091 zawiera sygnał SIGUSR1
+Kolejka procesu 45091 zawiera sygnał SIGUSR1
+Wysyłanie sygnału...
+Kolejka procesu 45091 zawiera sygnał SIGUSR1
+
+
+----------PENDING----------
+PID procesu głównego: 45095
+Kolejka procesu 45095 nie zawiera sygnału SIGUSR1
+Wysyłanie sygnału...
+Kolejka procesu 45095 zawiera sygnał SIGUSR1
+
+Proces potomny - fork()
+
+PID dziecka: 45097
+Maska procesu 45097 zawiera sygnał SIGUSR1
+Kolejka procesu 45097 nie zawiera sygnału SIGUSR1
+Wysyłanie sygnału...
+Kolejka procesu 45097 zawiera sygnał SIGUSR1
+
+Proces potomny - exec()
+
+PID dziecka: 45095
+Maska procesu 45095 zawiera sygnał SIGUSR1
+Kolejka procesu 45095 zawiera sygnał SIGUSR1
+Wysyłanie sygnału...
+Kolejka procesu 45095 zawiera sygnał SIGUSR1
+
+
+----------IGNORE----------
+PID procesu głównego: 45099
+Kolejka procesu 45099 nie zawiera sygnału SIGUSR1
+Wysyłanie sygnału...
+Kolejka procesu 45099 nie zawiera sygnału SIGUSR1
+
+Proces potomny - fork()
+
+PID dziecka: 45101
+Kolejka procesu 45101 nie zawiera sygnału SIGUSR1
+Wysyłanie sygnału...
+Kolejka procesu 45101 nie zawiera sygnału SIGUSR1
+
+Proces potomny - exec()
+
+PID dziecka: 45099
+Kolejka procesu 45099 nie zawiera sygnału SIGUSR1
+Wysyłanie sygnału...
+Kolejka procesu 45099 nie zawiera sygnału SIGUSR1
+
+
+----------HANDLER----------
+PID procesu głównego: 45103
+Kolejka procesu 45103 nie zawiera sygnału SIGUSR1
+Wysyłanie sygnału...
+Otrzymano sygnał: 10; Bieżący proces: 45103; Proces nadrzędny: 45102
+Kolejka procesu 45103 nie zawiera sygnału SIGUSR1
+
+Proces potomny - fork()
+
+PID dziecka: 45105
+Kolejka procesu 45105 nie zawiera sygnału SIGUSR1
+Wysyłanie sygnału...
+Otrzymano sygnał: 10; Bieżący proces: 45105; Proces nadrzędny: 45103
+Kolejka procesu 45105 nie zawiera sygnału SIGUSR1

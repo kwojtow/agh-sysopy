@@ -1,0 +1,2 @@
+W przypadku wywoływania procesu potomnego przez funkcję fork() maska sygnałów jest przekazywana, ale kolejka oczekiwanych sygnałów jest czyszczona, sposób obsługi sygnału także jest dziedziczony - zarówno ignorowanie jak i handler.
+W przypadku wywoływania procesu potomnego przez funkcję execl() dziedziczona jest zarówno maska sygnałów jak i kolejka oczekujących sygnałów. Ignorowanie sygnału jest dziedziczone, natomiast handler sygnału nie jest ustawiony w procesie potomnym.

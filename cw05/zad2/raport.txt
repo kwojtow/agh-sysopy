@@ -1,0 +1,120 @@
+----- SORTED BY SENDER -----
+ U   7 a_tymczasowy@krzys wto kwi 20 16:00  15/613   test
+ U  14 Krzysztof Wójtowi śro kwi 21 22:0  15/635   test
+ U  15 Krzysztof Wójtowi śro kwi 21 22:0  15/635   test
+ U  16 Krzysztof Wójtowi śro kwi 21 22:0  15/635   test
+ U  17 Krzysztof Wójtowi śro kwi 21 22:0  15/635   test
+ U  18 Krzysztof Wójtowi śro kwi 21 22:1  15/635   test
+ U  19 Krzysztof Wójtowi śro kwi 21 22:1  15/635   test
+ U  20 Krzysztof Wójtowi śro kwi 21 22:1  15/635   test
+ N  22 Krzysztof Wójtowi śro kwi 21 22:2  13/615   test
+ U  21 Krzysztof Wójtowi śro kwi 21 22:2  15/635   test
+ N  23 Krzysztof Wójtowi śro kwi 21 22:3  13/615   test
+ N  24 Krzysztof Wójtowi śro kwi 21 22:3  13/615   test
+ N  25 Krzysztof Wójtowi śro kwi 21 22:4  13/615   test
+>U   1 Krzysztof Wójtowi wto kwi 20 01:49  16/657   test
+ U  11 Krzysztof Wójtowi wto kwi 20 16:48  15/631   test
+ U  12 Krzysztof Wójtowi wto kwi 20 18:22  15/632   test
+ U  13 Krzysztof Wójtowi wto kwi 20 18:23  15/632   test
+ U   2 Mail Delivery Syst wto kwi 20 01:50  78/2748  Undelivered Mail Returned
+ U   9 Mail Delivery Syst wto kwi 20 16:17  74/2739  Undelivered Mail Returned
+ U  10 Mail Delivery Syst wto kwi 20 16:26  80/3003  Undelivered Mail Returned
+ U   3 root               wto kwi 20 15:56  15/621   wiadomość1
+ U   4 tymczasowy1@krzysz wto kwi 20 15:58  14/607   test
+ U   5 tymczasowy2@krzysz wto kwi 20 15:59  14/607   test
+ U   6 tymczasowy3@krzysz wto kwi 20 15:59  15/611   test
+ U   8 z_tymczasowy@krzys wto kwi 20 16:00  15/613   test
+
+
+
+----- SORTED BY DATE -----
+>U   1 Krzysztof Wójtowi wto kwi 20 01:49  16/657   test
+ U   2 Mail Delivery Syst wto kwi 20 01:50  78/2748  Undelivered Mail Returned
+ U   3 root               wto kwi 20 15:56  15/621   wiadomość1
+ U   4 tymczasowy1@krzysz wto kwi 20 15:58  14/607   test
+ U   5 tymczasowy2@krzysz wto kwi 20 15:59  14/607   test
+ U   6 tymczasowy3@krzysz wto kwi 20 15:59  15/611   test
+ U   7 a_tymczasowy@krzys wto kwi 20 16:00  15/613   test
+ U   8 z_tymczasowy@krzys wto kwi 20 16:00  15/613   test
+ U   9 Mail Delivery Syst wto kwi 20 16:17  74/2739  Undelivered Mail Returned
+ U  10 Mail Delivery Syst wto kwi 20 16:26  80/3003  Undelivered Mail Returned
+ U  11 Krzysztof Wójtowi wto kwi 20 16:48  15/631   test
+ U  12 Krzysztof Wójtowi wto kwi 20 18:22  15/632   test
+ U  13 Krzysztof Wójtowi wto kwi 20 18:23  15/632   test
+ U  14 Krzysztof Wójtowi śro kwi 21 22:0  15/635   test
+ U  15 Krzysztof Wójtowi śro kwi 21 22:0  15/635   test
+ U  16 Krzysztof Wójtowi śro kwi 21 22:0  15/635   test
+ U  17 Krzysztof Wójtowi śro kwi 21 22:0  15/635   test
+ U  18 Krzysztof Wójtowi śro kwi 21 22:1  15/635   test
+ U  19 Krzysztof Wójtowi śro kwi 21 22:1  15/635   test
+ U  20 Krzysztof Wójtowi śro kwi 21 22:1  15/635   test
+ U  21 Krzysztof Wójtowi śro kwi 21 22:2  15/635   test
+ N  22 Krzysztof Wójtowi śro kwi 21 22:2  13/615   test
+ N  23 Krzysztof Wójtowi śro kwi 21 22:3  13/615   test
+ N  24 Krzysztof Wójtowi śro kwi 21 22:3  13/615   test
+ N  25 Krzysztof Wójtowi śro kwi 21 22:4  13/615   test
+
+
+
+----- SENDING EMAIL -----
+Wysłano wiadomość na adres krzysztof
+
+
+----- SORTED BY SENDER -----
+ U   7 a_tymczasowy@krzys wto kwi 20 16:00  15/613   test
+ U  14 Krzysztof Wójtowi śro kwi 21 22:0  15/635   test
+ U  15 Krzysztof Wójtowi śro kwi 21 22:0  15/635   test
+ U  16 Krzysztof Wójtowi śro kwi 21 22:0  15/635   test
+ U  17 Krzysztof Wójtowi śro kwi 21 22:0  15/635   test
+ U  18 Krzysztof Wójtowi śro kwi 21 22:1  15/635   test
+ U  19 Krzysztof Wójtowi śro kwi 21 22:1  15/635   test
+ U  20 Krzysztof Wójtowi śro kwi 21 22:1  15/635   test
+ N  22 Krzysztof Wójtowi śro kwi 21 22:2  13/615   test
+ U  21 Krzysztof Wójtowi śro kwi 21 22:2  15/635   test
+ N  23 Krzysztof Wójtowi śro kwi 21 22:3  13/615   test
+ N  24 Krzysztof Wójtowi śro kwi 21 22:3  13/615   test
+ N  25 Krzysztof Wójtowi śro kwi 21 22:4  13/615   test
+ N  26 Krzysztof Wójtowi śro kwi 21 22:5  13/615   test
+>U   1 Krzysztof Wójtowi wto kwi 20 01:49  16/657   test
+ U  11 Krzysztof Wójtowi wto kwi 20 16:48  15/631   test
+ U  12 Krzysztof Wójtowi wto kwi 20 18:22  15/632   test
+ U  13 Krzysztof Wójtowi wto kwi 20 18:23  15/632   test
+ U   2 Mail Delivery Syst wto kwi 20 01:50  78/2748  Undelivered Mail Returned
+ U   9 Mail Delivery Syst wto kwi 20 16:17  74/2739  Undelivered Mail Returned
+ U  10 Mail Delivery Syst wto kwi 20 16:26  80/3003  Undelivered Mail Returned
+ U   3 root               wto kwi 20 15:56  15/621   wiadomość1
+ U   4 tymczasowy1@krzysz wto kwi 20 15:58  14/607   test
+ U   5 tymczasowy2@krzysz wto kwi 20 15:59  14/607   test
+ U   6 tymczasowy3@krzysz wto kwi 20 15:59  15/611   test
+ U   8 z_tymczasowy@krzys wto kwi 20 16:00  15/613   test
+
+
+
+----- SORTED BY DATE -----
+>U   1 Krzysztof Wójtowi wto kwi 20 01:49  16/657   test
+ U   2 Mail Delivery Syst wto kwi 20 01:50  78/2748  Undelivered Mail Returned
+ U   3 root               wto kwi 20 15:56  15/621   wiadomość1
+ U   4 tymczasowy1@krzysz wto kwi 20 15:58  14/607   test
+ U   5 tymczasowy2@krzysz wto kwi 20 15:59  14/607   test
+ U   6 tymczasowy3@krzysz wto kwi 20 15:59  15/611   test
+ U   7 a_tymczasowy@krzys wto kwi 20 16:00  15/613   test
+ U   8 z_tymczasowy@krzys wto kwi 20 16:00  15/613   test
+ U   9 Mail Delivery Syst wto kwi 20 16:17  74/2739  Undelivered Mail Returned
+ U  10 Mail Delivery Syst wto kwi 20 16:26  80/3003  Undelivered Mail Returned
+ U  11 Krzysztof Wójtowi wto kwi 20 16:48  15/631   test
+ U  12 Krzysztof Wójtowi wto kwi 20 18:22  15/632   test
+ U  13 Krzysztof Wójtowi wto kwi 20 18:23  15/632   test
+ U  14 Krzysztof Wójtowi śro kwi 21 22:0  15/635   test
+ U  15 Krzysztof Wójtowi śro kwi 21 22:0  15/635   test
+ U  16 Krzysztof Wójtowi śro kwi 21 22:0  15/635   test
+ U  17 Krzysztof Wójtowi śro kwi 21 22:0  15/635   test
+ U  18 Krzysztof Wójtowi śro kwi 21 22:1  15/635   test
+ U  19 Krzysztof Wójtowi śro kwi 21 22:1  15/635   test
+ U  20 Krzysztof Wójtowi śro kwi 21 22:1  15/635   test
+ U  21 Krzysztof Wójtowi śro kwi 21 22:2  15/635   test
+ N  22 Krzysztof Wójtowi śro kwi 21 22:2  13/615   test
+ N  23 Krzysztof Wójtowi śro kwi 21 22:3  13/615   test
+ N  24 Krzysztof Wójtowi śro kwi 21 22:3  13/615   test
+ N  25 Krzysztof Wójtowi śro kwi 21 22:4  13/615   test
+ N  26 Krzysztof Wójtowi śro kwi 21 22:5  13/615   test
+

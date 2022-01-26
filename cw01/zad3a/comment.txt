@@ -1,0 +1,3 @@
+W przypadku biblioteki współdzielonej krótszy jest czas procesora poświęcony na operacje użytkownika, natomiast dłuższy czas jest poświęcany na operacje systemowe.
+Najdłuższy czas operacji użytkownika zaobserwowano w przypadku biblioteki ładowanej dynamicznie.
+W ogólnym przypadku nie zauważono znaczących różnic w czasie wykonania poszczególnych operacji dla różnych sposobów dołączania bibliotek.

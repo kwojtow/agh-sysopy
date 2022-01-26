@@ -1,0 +1,2 @@
+Czas zajętości procesora przez program jest w ogólności większy dla programu operującego na wielu procesach. Szczególnie mocno jest to widoczne dla dużej ilości par małych plików do mergowania. Spowodowane jest to narzutem na rzecz utworzenie i zakończenia nowych procesów.
+Można jednak zauważyć, że rzeczywisty czas od uruchomienia programu do jego zakończenia jest znacznie niższy w przypadku programu używającego wielu procesów. Jest to spowodowane możliwością równoległego wykonywania wielu operacji.

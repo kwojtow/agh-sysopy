@@ -1,0 +1,585 @@
+
+
+----- STATIC LIBRARY -----
+
+
++++  Tested pair: small.txt:small.txt  +++
++++  Sample size: 50 +++
+
+Merging:
+Real time: 0.120000
+System CPU time: 0.030000
+User CPU time: 0.080000
+
+Adding blocks:
+Real time: 0.020000
+System CPU time: 0.010000
+User CPU time: 0.010000
+
+Removing blocks:
+Real time: 0.000000
+System CPU time: 0.000000
+User CPU time: 0.000000
+
+Adding and removing blocks 10 times:
+Real time: 0.010000
+System CPU time: 0.000000
+User CPU time: 0.010000
+
+
++++  Tested pair: small.txt:small.txt  +++
++++  Sample size: 100 +++
+
+Merging:
+Real time: 0.230000
+System CPU time: 0.050000
+User CPU time: 0.170000
+
+Adding blocks:
+Real time: 0.060000
+System CPU time: 0.030000
+User CPU time: 0.030000
+
+Removing blocks:
+Real time: 0.000000
+System CPU time: 0.000000
+User CPU time: 0.000000
+
+Adding and removing blocks 10 times:
+Real time: 0.020000
+System CPU time: 0.000000
+User CPU time: 0.020000
+
+
++++  Tested pair: small.txt:small.txt  +++
++++  Sample size: 1000 +++
+
+Merging:
+Real time: 2.220000
+System CPU time: 0.570000
+User CPU time: 1.640000
+
+Adding blocks:
+Real time: 0.490000
+System CPU time: 0.250000
+User CPU time: 0.240000
+
+Removing blocks:
+Real time: 0.000000
+System CPU time: 0.000000
+User CPU time: 0.000000
+
+Adding and removing blocks 10 times:
+Real time: 0.320000
+System CPU time: 0.110000
+User CPU time: 0.150000
+
+
++++  Tested pair: medium.txt:medium.txt  +++
++++  Sample size: 50 +++
+
+Merging:
+Real time: 1.150000
+System CPU time: 0.350000
+User CPU time: 0.790000
+
+Adding blocks:
+Real time: 0.260000
+System CPU time: 0.140000
+User CPU time: 0.100000
+
+Removing blocks:
+Real time: 0.000000
+System CPU time: 0.000000
+User CPU time: 0.000000
+
+Adding and removing blocks 10 times:
+Real time: 0.120000
+System CPU time: 0.070000
+User CPU time: 0.060000
+
+
++++  Tested pair: medium.txt:medium.txt  +++
++++  Sample size: 100 +++
+
+Merging:
+Real time: 2.360000
+System CPU time: 0.710000
+User CPU time: 1.640000
+
+Adding blocks:
+Real time: 0.520000
+System CPU time: 0.260000
+User CPU time: 0.260000
+
+Removing blocks:
+Real time: 0.000000
+System CPU time: 0.000000
+User CPU time: 0.000000
+
+Adding and removing blocks 10 times:
+Real time: 0.290000
+System CPU time: 0.140000
+User CPU time: 0.140000
+
+
++++  Tested pair: big.txt:big.txt  +++
++++  Sample size: 1 +++
+
+Merging:
+Real time: 0.120000
+System CPU time: 0.030000
+User CPU time: 0.080000
+
+Adding blocks:
+Real time: 0.030000
+System CPU time: 0.030000
+User CPU time: 0.000000
+
+Removing blocks:
+Real time: 0.000000
+System CPU time: 0.000000
+User CPU time: 0.000000
+
+Adding and removing blocks 10 times:
+Real time: 0.010000
+System CPU time: 0.000000
+User CPU time: 0.010000
+
+
++++  Tested pair: big.txt:big.txt  +++
++++  Sample size: 2 +++
+
+Merging:
+Real time: 0.230000
+System CPU time: 0.060000
+User CPU time: 0.170000
+
+Adding blocks:
+Real time: 0.060000
+System CPU time: 0.040000
+User CPU time: 0.020000
+
+Removing blocks:
+Real time: 0.000000
+System CPU time: 0.000000
+User CPU time: 0.000000
+
+Adding and removing blocks 10 times:
+Real time: 0.030000
+System CPU time: 0.010000
+User CPU time: 0.010000
+
+
++++  Tested pair: big.txt:big.txt  +++
++++  Sample size: 5 +++
+
+Merging:
+Real time: 0.590000
+System CPU time: 0.160000
+User CPU time: 0.420000
+
+Adding blocks:
+Real time: 0.130000
+System CPU time: 0.080000
+User CPU time: 0.050000
+
+Removing blocks:
+Real time: 0.000000
+System CPU time: 0.000000
+User CPU time: 0.000000
+
+Adding and removing blocks 10 times:
+Real time: 0.070000
+System CPU time: 0.020000
+User CPU time: 0.040000
+
+
+----- SHARED LIBRARY -----
+
+
++++  Tested pair: small.txt:small.txt  +++
++++  Sample size: 50 +++
+
+Merging:
+Real time: 0.110000
+System CPU time: 0.030000
+User CPU time: 0.070000
+
+Adding blocks:
+Real time: 0.030000
+System CPU time: 0.020000
+User CPU time: 0.010000
+
+Removing blocks:
+Real time: 0.000000
+System CPU time: 0.000000
+User CPU time: 0.000000
+
+Adding and removing blocks 10 times:
+Real time: 0.020000
+System CPU time: 0.000000
+User CPU time: 0.020000
+
+
++++  Tested pair: small.txt:small.txt  +++
++++  Sample size: 100 +++
+
+Merging:
+Real time: 0.250000
+System CPU time: 0.040000
+User CPU time: 0.200000
+
+Adding blocks:
+Real time: 0.050000
+System CPU time: 0.040000
+User CPU time: 0.020000
+
+Removing blocks:
+Real time: 0.000000
+System CPU time: 0.000000
+User CPU time: 0.000000
+
+Adding and removing blocks 10 times:
+Real time: 0.030000
+System CPU time: 0.010000
+User CPU time: 0.010000
+
+
++++  Tested pair: small.txt:small.txt  +++
++++  Sample size: 1000 +++
+
+Merging:
+Real time: 2.340000
+System CPU time: 0.690000
+User CPU time: 1.630000
+
+Adding blocks:
+Real time: 0.490000
+System CPU time: 0.290000
+User CPU time: 0.220000
+
+Removing blocks:
+Real time: 0.000000
+System CPU time: 0.000000
+User CPU time: 0.000000
+
+Adding and removing blocks 10 times:
+Real time: 0.280000
+System CPU time: 0.120000
+User CPU time: 0.140000
+
+
++++  Tested pair: medium.txt:medium.txt  +++
++++  Sample size: 50 +++
+
+Merging:
+Real time: 1.240000
+System CPU time: 0.380000
+User CPU time: 0.840000
+
+Adding blocks:
+Real time: 0.250000
+System CPU time: 0.140000
+User CPU time: 0.120000
+
+Removing blocks:
+Real time: 0.000000
+System CPU time: 0.000000
+User CPU time: 0.000000
+
+Adding and removing blocks 10 times:
+Real time: 0.130000
+System CPU time: 0.040000
+User CPU time: 0.080000
+
+
++++  Tested pair: medium.txt:medium.txt  +++
++++  Sample size: 100 +++
+
+Merging:
+Real time: 2.300000
+System CPU time: 0.680000
+User CPU time: 1.610000
+
+Adding blocks:
+Real time: 0.500000
+System CPU time: 0.270000
+User CPU time: 0.220000
+
+Removing blocks:
+Real time: 0.000000
+System CPU time: 0.010000
+User CPU time: 0.000000
+
+Adding and removing blocks 10 times:
+Real time: 0.250000
+System CPU time: 0.130000
+User CPU time: 0.120000
+
+
++++  Tested pair: big.txt:big.txt  +++
++++  Sample size: 1 +++
+
+Merging:
+Real time: 0.130000
+System CPU time: 0.030000
+User CPU time: 0.080000
+
+Adding blocks:
+Real time: 0.020000
+System CPU time: 0.010000
+User CPU time: 0.020000
+
+Removing blocks:
+Real time: 0.000000
+System CPU time: 0.000000
+User CPU time: 0.000000
+
+Adding and removing blocks 10 times:
+Real time: 0.010000
+System CPU time: 0.010000
+User CPU time: 0.000000
+
+
++++  Tested pair: big.txt:big.txt  +++
++++  Sample size: 2 +++
+
+Merging:
+Real time: 0.230000
+System CPU time: 0.080000
+User CPU time: 0.140000
+
+Adding blocks:
+Real time: 0.050000
+System CPU time: 0.040000
+User CPU time: 0.010000
+
+Removing blocks:
+Real time: 0.000000
+System CPU time: 0.000000
+User CPU time: 0.000000
+
+Adding and removing blocks 10 times:
+Real time: 0.020000
+System CPU time: 0.010000
+User CPU time: 0.020000
+
+
++++  Tested pair: big.txt:big.txt  +++
++++  Sample size: 5 +++
+
+Merging:
+Real time: 0.590000
+System CPU time: 0.170000
+User CPU time: 0.400000
+
+Adding blocks:
+Real time: 0.120000
+System CPU time: 0.060000
+User CPU time: 0.070000
+
+Removing blocks:
+Real time: 0.000000
+System CPU time: 0.000000
+User CPU time: 0.000000
+
+Adding and removing blocks 10 times:
+Real time: 0.070000
+System CPU time: 0.020000
+User CPU time: 0.040000
+
+
+----- DYNAMIC LIBRARY -----
+
+
++++  Tested pair: small.txt:small.txt  +++
++++  Sample size: 50 +++
+
+Merging:
+Real time: 0.120000
+System CPU time: 0.020000
+User CPU time: 0.090000
+
+Adding blocks:
+Real time: 0.020000
+System CPU time: 0.000000
+User CPU time: 0.020000
+
+Removing blocks:
+Real time: 0.000000
+System CPU time: 0.000000
+User CPU time: 0.000000
+
+Adding and removing blocks 10 times:
+Real time: 0.020000
+System CPU time: 0.010000
+User CPU time: 0.010000
+
+
++++  Tested pair: small.txt:small.txt  +++
++++  Sample size: 100 +++
+
+Merging:
+Real time: 0.220000
+System CPU time: 0.050000
+User CPU time: 0.160000
+
+Adding blocks:
+Real time: 0.050000
+System CPU time: 0.030000
+User CPU time: 0.020000
+
+Removing blocks:
+Real time: 0.000000
+System CPU time: 0.000000
+User CPU time: 0.000000
+
+Adding and removing blocks 10 times:
+Real time: 0.030000
+System CPU time: 0.010000
+User CPU time: 0.020000
+
+
++++  Tested pair: small.txt:small.txt  +++
++++  Sample size: 1000 +++
+
+Merging:
+Real time: 2.240000
+System CPU time: 0.600000
+User CPU time: 1.610000
+
+Adding blocks:
+Real time: 0.500000
+System CPU time: 0.240000
+User CPU time: 0.260000
+
+Removing blocks:
+Real time: 0.000000
+System CPU time: 0.000000
+User CPU time: 0.000000
+
+Adding and removing blocks 10 times:
+Real time: 0.250000
+System CPU time: 0.100000
+User CPU time: 0.150000
+
+
++++  Tested pair: medium.txt:medium.txt  +++
++++  Sample size: 50 +++
+
+Merging:
+Real time: 1.150000
+System CPU time: 0.310000
+User CPU time: 0.820000
+
+Adding blocks:
+Real time: 0.410000
+System CPU time: 0.180000
+User CPU time: 0.120000
+
+Removing blocks:
+Real time: 0.000000
+System CPU time: 0.000000
+User CPU time: 0.000000
+
+Adding and removing blocks 10 times:
+Real time: 0.130000
+System CPU time: 0.060000
+User CPU time: 0.060000
+
+
++++  Tested pair: medium.txt:medium.txt  +++
++++  Sample size: 100 +++
+
+Merging:
+Real time: 2.290000
+System CPU time: 0.640000
+User CPU time: 1.640000
+
+Adding blocks:
+Real time: 0.500000
+System CPU time: 0.280000
+User CPU time: 0.220000
+
+Removing blocks:
+Real time: 0.000000
+System CPU time: 0.000000
+User CPU time: 0.000000
+
+Adding and removing blocks 10 times:
+Real time: 0.260000
+System CPU time: 0.130000
+User CPU time: 0.130000
+
+
++++  Tested pair: big.txt:big.txt  +++
++++  Sample size: 1 +++
+
+Merging:
+Real time: 0.120000
+System CPU time: 0.030000
+User CPU time: 0.080000
+
+Adding blocks:
+Real time: 0.020000
+System CPU time: 0.010000
+User CPU time: 0.010000
+
+Removing blocks:
+Real time: 0.000000
+System CPU time: 0.000000
+User CPU time: 0.000000
+
+Adding and removing blocks 10 times:
+Real time: 0.020000
+System CPU time: 0.010000
+User CPU time: 0.010000
+
+
++++  Tested pair: big.txt:big.txt  +++
++++  Sample size: 2 +++
+
+Merging:
+Real time: 0.230000
+System CPU time: 0.080000
+User CPU time: 0.150000
+
+Adding blocks:
+Real time: 0.060000
+System CPU time: 0.020000
+User CPU time: 0.030000
+
+Removing blocks:
+Real time: 0.000000
+System CPU time: 0.000000
+User CPU time: 0.000000
+
+Adding and removing blocks 10 times:
+Real time: 0.020000
+System CPU time: 0.010000
+User CPU time: 0.010000
+
+
++++  Tested pair: big.txt:big.txt  +++
++++  Sample size: 5 +++
+
+Merging:
+Real time: 0.580000
+System CPU time: 0.160000
+User CPU time: 0.410000
+
+Adding blocks:
+Real time: 0.130000
+System CPU time: 0.060000
+User CPU time: 0.070000
+
+Removing blocks:
+Real time: 0.000000
+System CPU time: 0.000000
+User CPU time: 0.000000
+
+Adding and removing blocks 10 times:
+Real time: 0.070000
+System CPU time: 0.030000
+User CPU time: 0.030000

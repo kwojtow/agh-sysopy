@@ -1,0 +1,64 @@
+
+
++++  Tested pair: small.txt:small.txt  +++
++++  Sample size: 50 +++
+
+Real time: 0.030000
+System CPU time: 0.120000
+User CPU time: 0.180000
+
+
++++  Tested pair: small.txt:small.txt  +++
++++  Sample size: 100 +++
+
+Real time: 0.060000
+System CPU time: 0.260000
+User CPU time: 0.340000
+
+
++++  Tested pair: small.txt:small.txt  +++
++++  Sample size: 1000 +++
+
+Real time: 0.540000
+System CPU time: 2.820000
+User CPU time: 3.450000
+
+
++++  Tested pair: medium.txt:medium.txt  +++
++++  Sample size: 50 +++
+
+Real time: 0.300000
+System CPU time: 1.520000
+User CPU time: 1.930000
+
+
++++  Tested pair: medium.txt:medium.txt  +++
++++  Sample size: 100 +++
+
+Real time: 0.650000
+System CPU time: 3.640000
+User CPU time: 3.770000
+
+
++++  Tested pair: big.txt:big.txt  +++
++++  Sample size: 1 +++
+
+Real time: 0.150000
+System CPU time: 0.050000
+User CPU time: 0.090000
+
+
++++  Tested pair: big.txt:big.txt  +++
++++  Sample size: 2 +++
+
+Real time: 0.160000
+System CPU time: 0.110000
+User CPU time: 0.180000
+
+
++++  Tested pair: big.txt:big.txt  +++
++++  Sample size: 5 +++
+
+Real time: 0.200000
+System CPU time: 0.360000
+User CPU time: 0.600000

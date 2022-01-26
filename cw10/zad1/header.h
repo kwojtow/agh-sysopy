@@ -1,0 +1,7 @@
+#define NAME '0'
+#define MOVE '1'
+#define WIN '2'
+#define USED_NAME '3'
+#define DISCONNECT '4'
+#define PING '5'
+#define DRAW '6'

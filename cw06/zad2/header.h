@@ -1,0 +1,9 @@
+#define STOP 6
+#define DISCONNECT 5
+#define LIST 4
+#define INIT 3
+#define CONNECT 2
+#define DATA 1
+#define MAX_TYPE 7
+#define MAX_MSG_SIZE 4000
+#define SERVER_QUEUE "/server_q"

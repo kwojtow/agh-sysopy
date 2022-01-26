@@ -1,0 +1,4 @@
+Dzięki wykorzystaniu semaforów, niezależnie od ilości kucharzy i dostawców dane w pamięci współdzielonej są poprawne. Gdy kucharzy jest więcej, więcej procesów jest blokowanych.
+W przypadku mniejszej niż ilość miejsc w piecu liczby kucharzy, czas przygotowania pizzy jest zbliżony do założonego, ponieważ kucharz musi jedynie czekać na zwolnienie okienka dostępowego.
+W przypadku liczby kucharzy większej od liczby miejsc w piecu, czas przygotowania pizzy wydłuża się, ponieważ trzeba czekać na zwolnienie miejsca w piecu, co skutecznie jest realizowane przez zerowanie wartości semafora.
+Podobna sytuacja miałaby miejsce w przypadku, gdy dostawców byłoby zancząco mniej niż kucharzy.

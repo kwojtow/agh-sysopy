@@ -1,0 +1,241 @@
+W przypadku podziału na bloki, wraz ze wzrostem ilości wątków, czas wykonania programu jedynie spada do pewnej granicy. Minimalny czas uzyskano dla 8 wątków. Powodem takiego efektu jest to, że mimo iż każdy wątek ma mniej pracy do wykonania, z każdym kolejnym dodanym wątkiem dochodzi czas potrzebny na jego utworzenie i obsługę. Po przekroczeniu pewnego progu, narzut ten jest tak duży, że zysk ze zrównoleglenia pracy tego nie rekompensuje. Tworzenie zbyt dużej ilości wątków nie ma sensu także z tego powodu, że będą one czekać na czas procesora, przez co i tak nie przyspieszy to obliczeń.
+
+W przypadku podziału pracy w zależności od zakresu wartości, tylko dla dwóch wątków zauważono zredukowanie czasu wykonania programu. Wynika to z faktu, że każdy wątek musi przejrzeć tablicę w celu zlokalizowania pikseli, na których ma wykonać operację, a sama operacja na danych nie jest zbyt kosztowna, w związku z czym korzyści z zastosowania wielowątkowości są niewielkie. Czas pracy każdego wątku i tak jes w znacznym stopniu determinowany przez operację przeglądania tablicy, a więc wraz ze zwiększaniem ilości wątków możemy zmniejszyć tylko czas poświęcony na operację na danych, co przy dużej ilości wątków stanowi jedynie ułamek czasu poświęcanego na przeglądanie tablicy. Uzyskany w ten sposób zysk nie rekompensuje strat poniesionych na rzecz tworzenia wątków i w efekcie program wykonuje się dłużej niż bez zastosowania wielowątkowości.
+
+BLOCK - 1 THREAD
+Total time: 41499us
+Thread times:
+Thread no: 0, time: 41251us
+
+BLOCK - 2 THREADS
+Total time: 22687us
+Thread times:
+Thread no: 0, time: 17999us
+Thread no: 1, time: 22527us
+
+BLOCK - 4 THREADS
+Total time: 12825us
+Thread times:
+Thread no: 0, time: 12618us
+Thread no: 1, time: 10905us
+Thread no: 2, time: 10932us
+Thread no: 3, time: 11027us
+
+BLOCK - 8 THREADS
+Total time: 11153us
+Thread times:
+Thread no: 0, time: 10649us
+Thread no: 1, time: 7346us
+Thread no: 2, time: 8885us
+Thread no: 3, time: 10680us
+Thread no: 4, time: 10952us
+Thread no: 5, time: 10588us
+Thread no: 6, time: 10795us
+Thread no: 7, time: 10838us
+
+BLOCK - 16 THREADS
+Total time: 13002us
+Thread times:
+Thread no: 0, time: 9891us
+Thread no: 1, time: 12298us
+Thread no: 2, time: 9232us
+Thread no: 3, time: 9664us
+Thread no: 4, time: 9318us
+Thread no: 5, time: 11692us
+Thread no: 6, time: 7038us
+Thread no: 7, time: 9666us
+Thread no: 8, time: 12064us
+Thread no: 9, time: 11240us
+Thread no: 10, time: 8359us
+Thread no: 11, time: 7972us
+Thread no: 12, time: 8731us
+Thread no: 13, time: 8474us
+Thread no: 14, time: 8495us
+Thread no: 15, time: 2449us
+
+BLOCK - 64 THREADS
+Total time: 16086us
+Thread times:
+Thread no: 0, time: 6254us
+Thread no: 1, time: 6313us
+Thread no: 2, time: 6310us
+Thread no: 3, time: 6849us
+Thread no: 4, time: 6042us
+Thread no: 5, time: 6161us
+Thread no: 6, time: 6878us
+Thread no: 7, time: 6271us
+Thread no: 8, time: 6225us
+Thread no: 9, time: 5944us
+Thread no: 10, time: 5714us
+Thread no: 11, time: 5613us
+Thread no: 12, time: 5977us
+Thread no: 13, time: 5318us
+Thread no: 14, time: 5741us
+Thread no: 15, time: 5123us
+Thread no: 16, time: 6466us
+Thread no: 17, time: 7265us
+Thread no: 18, time: 7289us
+Thread no: 19, time: 8269us
+Thread no: 20, time: 8938us
+Thread no: 21, time: 10132us
+Thread no: 22, time: 11087us
+Thread no: 23, time: 9375us
+Thread no: 24, time: 8222us
+Thread no: 25, time: 7933us
+Thread no: 26, time: 7789us
+Thread no: 27, time: 7519us
+Thread no: 28, time: 9465us
+Thread no: 29, time: 7458us
+Thread no: 30, time: 9428us
+Thread no: 31, time: 7376us
+Thread no: 32, time: 8136us
+Thread no: 33, time: 7755us
+Thread no: 34, time: 7102us
+Thread no: 35, time: 8597us
+Thread no: 36, time: 8305us
+Thread no: 37, time: 7713us
+Thread no: 38, time: 5509us
+Thread no: 39, time: 4723us
+Thread no: 40, time: 4315us
+Thread no: 41, time: 3414us
+Thread no: 42, time: 3525us
+Thread no: 43, time: 5023us
+Thread no: 44, time: 3383us
+Thread no: 45, time: 3603us
+Thread no: 46, time: 3804us
+Thread no: 47, time: 1497us
+Thread no: 48, time: 1128us
+Thread no: 49, time: 591us
+Thread no: 50, time: 835us
+Thread no: 51, time: 1385us
+Thread no: 52, time: 1326us
+Thread no: 53, time: 1268us
+Thread no: 54, time: 1472us
+Thread no: 55, time: 963us
+Thread no: 56, time: 1450us
+Thread no: 57, time: 712us
+Thread no: 58, time: 531us
+Thread no: 59, time: 867us
+Thread no: 60, time: 765us
+Thread no: 61, time: 602us
+Thread no: 62, time: 574us
+Thread no: 63, time: 1502us
+
+NUMBERS - 1 THREAD
+Total time: 15736us
+Thread times:
+Thread no: 0, time: 15482us
+
+NUMBERS - 2 THREADS
+Total time: 14226us
+Thread times:
+Thread no: 0, time: 14103us
+Thread no: 1, time: 13922us
+
+NUMBERS - 4 THREADS
+Total time: 17431us
+Thread times:
+Thread no: 0, time: 12952us
+Thread no: 1, time: 17301us
+Thread no: 2, time: 12410us
+Thread no: 3, time: 12306us
+
+NUMBERS - 8 THREADS
+Total time: 18185us
+Thread times:
+Thread no: 0, time: 11932us
+Thread no: 1, time: 11926us
+Thread no: 2, time: 14747us
+Thread no: 3, time: 17301us
+Thread no: 4, time: 17441us
+Thread no: 5, time: 17987us
+Thread no: 6, time: 17469us
+Thread no: 7, time: 10386us
+
+NUMBERS - 16 THREADS
+Total time: 28397us
+Thread times:
+Thread no: 0, time: 17272us
+Thread no: 1, time: 18197us
+Thread no: 2, time: 17570us
+Thread no: 3, time: 17347us
+Thread no: 4, time: 17218us
+Thread no: 5, time: 17142us
+Thread no: 6, time: 17136us
+Thread no: 7, time: 17115us
+Thread no: 8, time: 22703us
+Thread no: 9, time: 10859us
+Thread no: 10, time: 14913us
+Thread no: 11, time: 23877us
+Thread no: 12, time: 11273us
+Thread no: 13, time: 16404us
+Thread no: 14, time: 16608us
+Thread no: 15, time: 10300us
+
+NUMBERS - 64 THREADS
+Total time: 86157us
+Thread times:
+Thread no: 0, time: 13409us
+Thread no: 1, time: 15074us
+Thread no: 2, time: 15086us
+Thread no: 3, time: 15107us
+Thread no: 4, time: 40793us
+Thread no: 5, time: 43316us
+Thread no: 6, time: 51575us
+Thread no: 7, time: 37169us
+Thread no: 8, time: 49221us
+Thread no: 9, time: 38608us
+Thread no: 10, time: 69595us
+Thread no: 11, time: 54512us
+Thread no: 12, time: 36255us
+Thread no: 13, time: 61153us
+Thread no: 14, time: 62959us
+Thread no: 15, time: 60386us
+Thread no: 16, time: 51300us
+Thread no: 17, time: 51526us
+Thread no: 18, time: 50767us
+Thread no: 19, time: 27163us
+Thread no: 20, time: 31299us
+Thread no: 21, time: 54961us
+Thread no: 22, time: 54773us
+Thread no: 23, time: 52206us
+Thread no: 24, time: 47150us
+Thread no: 25, time: 29290us
+Thread no: 26, time: 28231us
+Thread no: 27, time: 39398us
+Thread no: 28, time: 35459us
+Thread no: 29, time: 42990us
+Thread no: 30, time: 43411us
+Thread no: 31, time: 39320us
+Thread no: 32, time: 44016us
+Thread no: 33, time: 46511us
+Thread no: 34, time: 38369us
+Thread no: 35, time: 22120us
+Thread no: 36, time: 35670us
+Thread no: 37, time: 33417us
+Thread no: 38, time: 32061us
+Thread no: 39, time: 28215us
+Thread no: 40, time: 44586us
+Thread no: 41, time: 46830us
+Thread no: 42, time: 53359us
+Thread no: 43, time: 45500us
+Thread no: 44, time: 44848us
+Thread no: 45, time: 52915us
+Thread no: 46, time: 55345us
+Thread no: 47, time: 67289us
+Thread no: 48, time: 57972us
+Thread no: 49, time: 62530us
+Thread no: 50, time: 56562us
+Thread no: 51, time: 36628us
+Thread no: 52, time: 29845us
+Thread no: 53, time: 47617us
+Thread no: 54, time: 59073us
+Thread no: 55, time: 54638us
+Thread no: 56, time: 43493us
+Thread no: 57, time: 43579us
+Thread no: 58, time: 29318us
+Thread no: 59, time: 37127us
+Thread no: 60, time: 31290us
+Thread no: 61, time: 39582us
+Thread no: 62, time: 15186us
+Thread no: 63, time: 18591us
